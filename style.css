@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hamburger {
+    width: 20px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1001;
+}
+
+.hamburger div {
+  height: 4px;
+  background-color: rgb(171, 211, 194);
+  border-radius: 2px;
+   cursor: pointer;
+    transition: all;
+    transition-duration: 500ms;
+  
+}
+
+.hamburger:hover div {
+    background-color: rgb(212, 235, 225);;
+}
+
+.colours {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    background-color: rgb(212, 235, 225);
+    border-radius: 20px;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+    width: 80px;
+    left: -250vh;
+    transition-duration: 500ms;
+
+}
+
+.colours.active {
+    left: 0; 
+}
+
+#pink {
+    background-color: rgb(252, 221, 226);
+    margin-top: 35px;
+    margin-bottom: 2px;
+    border-radius: 12px;
+    padding: 4px;
+    padding-bottom: 8px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+#pink:hover {
+    background-color: rgb(255, 192, 203);
+}
+
+#mango {
+    background-color: rgb(255, 228, 181);
+    margin: 4px;
+    border-radius: 12px;
+    padding: 4px;
+    padding-bottom: 8px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+#mango:hover {
+    background-color: rgb(255, 211, 130);
+}
+
+#yellow {
+    background-color: rgb(255, 250, 187);
+    margin: 4px;
+    border-radius: 12px;
+    padding: 4px;
+    padding-bottom: 8px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 800ms;
+    transition: top 800ms ease;
+}
+
+#yellow:hover {
+    background-color: rgb(255, 238, 0);
+}
+
+#green {
+    background-color: rgb(151, 201, 151);
+    margin: 4px;
+    border-radius: 12px;
+    padding: 4px;
+    padding-bottom: 6px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+#green:hover {
+    background-color: rgb(126, 176, 126);
+}
+
+#blue {
+    background-color: rgb(173, 216, 230);
+    margin: 4px;
+    border-radius: 12px;
+    padding: 4px;
+    padding-bottom: 8px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+#blue:hover {
+    background-color: rgb(134, 208, 255);
+}
+
+#purple {
+    background-color: rgb(216, 191, 216);
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    padding: 4px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+#purple:hover {
+    background-color: rgb(196, 159, 196);
+}
+
